@@ -69,13 +69,6 @@ const Listing = () => {
           );
         })}
       </div>
-      {/* <div className="product_container">
-        {products.map((products) => (
-          <div key={products.id}>
-            <Product product={products} />
-          </div>
-        ))}
-      </div> */}
       <div className="product_container">
         {filteredProducts.map((products) => (
           <div key={products.id}>
