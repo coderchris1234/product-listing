@@ -38,7 +38,7 @@ const Listing = () => {
       setFilteredProducts(products);
     } else if (selectedCategory === "all") {
       setNumber(150);
-      setFilteredProducts(filteredProducts);
+      setFilteredProducts(products);
     } else {
       const filteredproducts = products.filter(
         (product) => product.category === selectedCategory
