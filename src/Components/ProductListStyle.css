@@ -1,0 +1,49 @@
+.Button_container {
+  width: 100%;
+  height: 15vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.All {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product_container {
+  width: 100%;
+  height: max-content;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.product_wrapper {
+  width: 300px;
+  height: max-content;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.product_wrapper > img {
+  width: 110px;
+  height: 110px;
+}
